@@ -29,5 +29,26 @@ This project implements a Django REST Framework (DRF) API endpoint that allows u
 - Postman (for API testing)
 
 ---
+## Install dependencies:
+
+pip install django
+pip install djangorestframework
+
+---
+## Start the server:
+
+python manage.py runserver
+
+---
+## Resources Used
+
+Django REST Framework Documentation
+
+Google for common issues and error resolutions
+
+ChatGPT for doubt clarification (not for writing code)
+
+---
+
 
 
