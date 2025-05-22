@@ -27,6 +27,7 @@ This project implements a Django REST Framework (DRF) API endpoint that allows u
 - Django
 - Django REST Framework
 - Postman (for API testing)
+- SQLite3 (used as the default database)
 
 ---
 ## Install dependencies:
@@ -35,6 +36,14 @@ pip install django
 pip install djangorestframework
 
 ---
+
+## Run migrations:
+
+python manage.py makemigrations
+python manage.py migrate
+
+---
+
 ## Start the server:
 
 python manage.py runserver
